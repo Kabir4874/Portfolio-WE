@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Kabir Ahmed Ridoy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header glass">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html" class="logo-link">
+            <img
+              src="https://kabir-ahmed.netlify.app/static/media/profile.8db85df7e4c4baf7a94d.webp"
+              alt="Kabir Ahmed Ridoy"
+              class="logo-img"
+              style="object-fit: contain"
+            />
+            <span class="name">Kabir Ahmed Ridoy</span>
+          </a>
+        </div>
+        <nav class="header-nav">
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link active">About</a></li>
+            <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          </ul>
+        </nav>
+        <div class="header-right">
+          <button class="search-btn" aria-label="Search">
+            <i class="fas fa-search"></i>
+          </button>
+          <button class="menu-btn" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="about-hero">
+      <div class="container">
+        <h1 class="floating">About Me</h1>
+        <p>Get to know the developer behind the code</p>
+      </div>
+    </section>
+
+    <section class="about-content">
+      <div class="container">
+        <div class="about-image">
+          <img
+            src="https://kabir-ahmed.netlify.app/static/media/profile.8db85df7e4c4baf7a94d.webp"
+            alt="Kabir Ahmed Ridoy"
+          />
+        </div>
+        <div class="about-text" style="margin-top: 2rem">
+          <h3>Full Stack Developer</h3>
+          <p>
+            With over 1 year of experience in web development, I specialize in
+            creating responsive, high-performance web applications using React,
+            Next.js, Node.js, and NestJS.
+          </p>
+          <p>
+            My approach combines technical expertise with problem-solving skills
+            to build solutions that are both functional and efficient.
+          </p>
+          <div class="skills">
+            <h4>Skills & Technologies</h4>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">NestJS</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">Express.js</span>
+            </div>
+          </div>
+          <div class="experience" style="margin-top: 2rem">
+            <h4>Professional Experience</h4>
+            <div class="experience-item">
+              <h5>Full Stack Developer at Scopioe</h5>
+              <p class="date">10/2024 - Present</p>
+              <p>
+                Building internal web applications to streamline company
+                operations
+              </p>
+            </div>
+            <div class="experience-item">
+              <h5>Full Stack Developer (Intern) at Scopioe</h5>
+              <p class="date">08/2024 - 10/2024</p>
+              <p>Contributed to design and development of scalable solutions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link active">About</a>
+          <a href="portfolio.html" class="footer-link">Portfolio</a>
+          <a href="#" class="footer-link">Contact</a>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="copyright">© 2025 Kabir Ahmed Ridoy. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector(".header");
+        if (window.scrollY > 50) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+    </script>
+  </body>
+</html>
